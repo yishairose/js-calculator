@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-display">
+            <div class="sum-display"></div>
+            <input type="text" id="input">
+        </div>
+        <div class="grid-container">
+            <button id="ac" class="control">AC</button>
+            <button id="ce" class="control">CE</button>
+            <button class="operator" data-operator="/">&#247</button>
+
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator" data-operator="*">&#215</button>
+
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator" data-operator="-">&#8722</button>
+
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator" data-operator="+">&#43</button>
+
+            <button id="zero" class="number">0</button>
+            <button class="number">.</button>
+            <button class="operator" data-operator="=">&#61</button>
+
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>
